@@ -1,0 +1,37 @@
+# Ambientes Virtuais
+venv/
+env/
+.env/
+
+# Arquivos compilados e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Dados gerados pelo aplicativo (Evita vazar leituras reais no GitHub)
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Permite que imagens de documentação na pasta assets sejam rastreadas
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.ico
+
+# Mantém a pasta data no repositório, mas ignora seu conteúdo
+data/*
+!data/.gitkeep
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs e Editores (VS Code, PyCharm, etc)
+.vscode/
+.idea/
+*.swp
