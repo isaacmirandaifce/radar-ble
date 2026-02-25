@@ -1,0 +1,6 @@
+# Renderização de gráficos e interface visual
+matplotlib>=3.5.0
+
+# Comunicação Bluetooth Low Energy (BLE)
+# (Assumindo que o seu beacon_scanner.py utiliza a biblioteca bleak, que é o padrão em Python)
+bleak>=0.21.0
