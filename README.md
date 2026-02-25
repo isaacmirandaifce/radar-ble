@@ -41,6 +41,7 @@ cd radar-ble-escaner
 
 ```bash
 pip install matplotlib
+pip install bleak
 
 ```
 
@@ -51,7 +52,7 @@ pip install matplotlib
 Execute o arquivo principal para iniciar a aplicação:
 
 ```bash
-python main_gui.py
+python beacon_scanner_gui.py
 
 ```
 
@@ -65,7 +66,7 @@ python main_gui.py
 
 ## Estrutura do Projeto
 
-* `main_gui.py`: Contém toda a lógica da interface gráfica (Tkinter), integração com o Matplotlib, e o gerenciamento de estados da aplicação.
+* `beacon_scanner_gui.py`: Contém toda a lógica da interface gráfica (Tkinter), integração com o Matplotlib, e o gerenciamento de estados da aplicação.
 * `beacon_scanner.py`: Módulo responsável pela lógica assíncrona de comunicação com o hardware Bluetooth e coleta das informações dos beacons.
 
 ## Contribuição
